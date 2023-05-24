@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#chat-room {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#message-container {
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#message-form input[type="text"] {
+    width: 70%;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+#message-form button {
+    padding: 5px 10px;
+}
